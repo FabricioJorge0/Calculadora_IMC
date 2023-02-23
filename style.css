@@ -1,0 +1,90 @@
+*root{
+  font-size: 62.5%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+  width: 75%;
+  min-height: 100%;
+  margin: auto;
+  text-align: center;
+
+  margin-top: 2rem;
+}
+
+.titulo{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.titulo h1{
+  font-size: 2rem;
+  color: rgb(0, 132, 255);
+  margin-bottom: 0.5rem;
+}
+
+.titulo p{
+  font-size: 1rem;
+  margin-top: 0;
+  border-bottom: 1px solid black;
+}
+
+.valores{
+  margin: auto;
+  margin-top: 2rem;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.valorMassaEAltura input{
+  margin-bottom: 1.3rem;
+  width: 65%;
+  height: 2rem;
+}
+
+label{
+  display: block;
+  float: left;
+  width: 18rem;
+  font-size: 1.3rem;
+}
+
+.resultado{
+  font-size: 1rem;
+  width: 75%;
+  height: 5rem;
+  margin: auto;
+}
+
+.botao{
+  width: 7rem;
+  height: 2.2rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  background-color:  rgb(0, 132, 255);
+  border-radius: 8px;
+}
+
+.botao:hover{
+  background-color:  rgb(3, 89, 170);
+  cursor: pointer;
+
+}
+
+
+
+
+
