@@ -1,10 +1,7 @@
-
-
-
 function calcular(){
   var valorAltura = document.getElementById("altura")
   var valorMassa = document.getElementById("massa")
-  var mostrarResultado = document.getElementById("resultado")
+  let mostrarResultado = document.getElementById("resultado")
 
 
   var valorSomaAltura = parseFloat(valorAltura.value)
@@ -33,7 +30,7 @@ function calcular(){
     mostrarResultado.style.display = "block"
     valorMassa.style.border = "1px solid green"
     valorAltura.style.border = "1px solid green"
-    mostrarResultado.style.color = "black"
+
   }
 
   if(resultadoIMC < 18.5){
@@ -51,19 +48,27 @@ function calcular(){
 }
 
 function mudarEscuro(){
+  let titulo = document.getElementById("titulo")
+  let mostrarResultado = document.getElementById("resultado")
   let body = document.getElementById("cor")
   let borda = document.getElementById("cores")
 
   body.style.backgroundColor = "rgb(24, 23, 23)"
   body.style.color = "white"
   borda.style.border ="1px solid white"
+  mostrarResultado.style.color = "white"
+  titulo.style.borderBottom = "1px solid white"
 }
 function mudarClaro(){
+  let titulo = document.getElementById("titulo")
+  let mostrarResultado = document.getElementById("resultado")
   let body = document.getElementById("cor")
   let borda = document.getElementById("cores")
 
   body.style.backgroundColor = "white"
   body.style.color = "black"
   borda.style.border ="1px solid black"
+  mostrarResultado.style.color = "black"
+  titulo.style.borderBottom = "1px solid black"
 }
 
